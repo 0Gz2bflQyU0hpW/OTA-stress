@@ -490,7 +490,7 @@ def write_ser_data():
 
 def sendEmail():
     to_list = str(email_receiver).split(',')
-    cc_list = ['xiaopanpan@xiaomi.com']
+    cc_list = ['12845979436@qq.com']
 
     # Charset.add_charset('utf-8', Charset.QP, Charset.QP)
     # html格式的文件名称一定不能为index,否则会报错
@@ -501,7 +501,7 @@ def sendEmail():
     cc_list = ', '.join(cc_list)
 
     msg = {
-        "token": "9XWtdUAF8Y@xiaomi.com",
+        "token": "1234567@qq.com",
         "subject": subject,
         "tos": to_list,
         "content": html_content,
