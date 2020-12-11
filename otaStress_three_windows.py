@@ -501,7 +501,7 @@ def sendEmail():
     cc_list = ', '.join(cc_list)
 
     msg = {
-        "token": "1234567@qq.com",
+        "token": xxxxxxxxx,
         "subject": subject,
         "tos": to_list,
         "content": html_content,
